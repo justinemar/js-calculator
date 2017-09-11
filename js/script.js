@@ -5,16 +5,7 @@ var arrNum = []; //will hold push parsed input
 var operatorType = []; //will hold operator usedv
 var dscreen = document.getElementById("screen"); //the screen in the DOM;
 
-/* While still experimenting i was planning to use this but i found it hard to implement.
-var operators = {
-        addition: function (a, b) { return a + b; },
-        subtraction: function (a, b) { return a - b; },
-        multiplication: function (a, b) { return a * b; },
-    };
 
-function calculate(operand, values) {
-    console.log(alues.reduce(operators[operand]));
-}*/
 
 /*detect click on button numbers*/
  $(".btnnum").click(function(){
